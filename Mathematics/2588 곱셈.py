@@ -1,0 +1,11 @@
+# 세자리수 * 세자리수
+a,b,c=map(int,input())
+d,e,f=map(int,input())
+r1=(((a*f)*100)+((b*f)*10)+((c*f)))
+r2=(((a*e*10)*100)+((b*e*10)*10)+((c*e*10)))
+r3=(((a*d*100)*100)+((b*d*100)*10)+((c*d*100)))
+r4=(r1+r2+r3)
+print(r1)
+print(int(r2/10))
+print(int(r3/100))
+print(r4)
