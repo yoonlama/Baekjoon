@@ -1,4 +1,4 @@
-#1 구구단
+# 구구단
 a=int(input())
 
 for i in range(1,10): #2이상 10미만
