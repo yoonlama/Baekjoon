@@ -5,5 +5,6 @@ input=sys.stdin.readline
 a,b=map(int,input().split())
 c=list(map(int,input().split()))
 
-if c==b:
-    print()
+for i in range(a):
+    if c[i]<b:
+        print(c[i],end=" ")
