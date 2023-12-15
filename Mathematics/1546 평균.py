@@ -3,12 +3,12 @@
 import sys
 input=sys.stdin.readline
 
-a=int(input())
+c=int(input())
 
 b=list(map(int,input().split()))
 
 m=max(b)
 
-ave=sum(b)*100/(a*m)
+ave=sum(b)*100/(c*m)
 
 print(ave)
